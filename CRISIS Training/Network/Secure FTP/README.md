@@ -32,7 +32,7 @@ In general case , we have to follow **TCP STREAM** and search for the flag manua
 
 ## Solution :two:: 
 
-There is another solution for this kind of challenge , is **always try to open the file with linux and do grep first** , it takes less than 30 seconds and very useful :  
+There is another solution for this kind of challenges , is **always try to open the file with linux and do grep first** , it takes less than 30 seconds and very useful :  
 
 ![image](https://user-images.githubusercontent.com/73240347/159016608-650c3bc5-4287-42ea-af71-ceed39dcb28b.png)
 
