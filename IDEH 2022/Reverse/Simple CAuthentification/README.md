@@ -17,19 +17,29 @@ Attempt to get the password
 
 After  extracting the compressed folder , we get an executable file 
 
-![image](https://user-images.githubusercontent.com/73240347/159056306-7bcc5727-a058-4bee-bf40-7c9ab0cd2092.png)
+```console
+Ubuntu@Ubuntu:~/Downloads/KCEPBe2Emug0PeTspqA2gcEEOW0UeCn0BxnCT8MS$ file auth
+auth: ELF 64-bit LSB shared object, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=5f8fefb60a5f9db2b9b492e534c43a0e01f443da, for GNU/Linux 3.2.0, not stripped
+```
 
 So in order to run it , *First* we have to change **permission** with the command *chmod +x auth* then ./auth 
-
-![image](https://user-images.githubusercontent.com/73240347/159056737-314750a0-1e7b-4822-bac5-79cdb4a9009c.png)
-
+```console
+Ubuntu@Ubuntu:~/Downloads/KCEPBe2Emug0PeTspqA2gcEEOW0UeCn0BxnCT8MS$ chmod +x auth && ./auth
+Please insert your password : 
+flag
+Incorrect Password
+```
 we need a password to pursuit ! But if we do **strings auth** we get a lot of data to analyse including this password  
 
 ![image](https://user-images.githubusercontent.com/73240347/159057160-544ea52e-650b-4f88-bb9a-151b394fa8c7.png) 
 
 Although is mentioned incorrect password , if we enter it in the binary file we get our flag : 
-
-![image](https://user-images.githubusercontent.com/73240347/159057547-e9e84eaa-1b95-482d-91e1-cdea7afac539.png)
+```console
+Ubuntu@Ubuntu:~/Downloads/KCEPBe2Emug0PeTspqA2gcEEOW0UeCn0BxnCT8MS$ ./auth
+Please insert your password : 
+DfX2NNNNN==
+CRISIS{c8xo1bD}
+```
 
 
 
