@@ -12,7 +12,7 @@ I did some file upload on my server using FTP the most secure protocol. I guess 
 
 ## Solution :one:: 
 
-After downloading the compressed folder and extracting it , we see that's contains a file named t1_2022.pcapng 
+After downloading the compressed folder and extracting it , we see a file named t1_2022.pcapng 
 
 ![image](https://user-images.githubusercontent.com/73240347/159010754-6ce4968b-9326-442c-9087-d30d58101d41.png)
 
