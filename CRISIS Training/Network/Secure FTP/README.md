@@ -1,6 +1,6 @@
 # Challenge name : Secure FTP 
 
-
+![Badge](https://img.shields.io/badge/CTF-easy-brightgreen)
 
 ## Description : 
 *Author: ***m4rc0s**** 
